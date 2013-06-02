@@ -11,10 +11,17 @@ This library has the same interface as the original android.util.Log class which
 How To Use
 ==========
 
+    yLoggr.d("message");
+
+Including In Your Project
+=========================
+
+    Download the jar file.
+
 Developed By
 ============
 
-* Arda Yigithan Orhan- <ayorhan@ayorhan.com>
+* Arda Yigithan Orhan - <ayorhan@ayorhan.com>
 
 License
 =======
