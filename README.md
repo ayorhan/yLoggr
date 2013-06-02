@@ -15,8 +15,7 @@ How To Use
 
 Including In Your Project
 =========================
-
-    Download the jar file.
+Download the jar file.
 
 Developed By
 ============
