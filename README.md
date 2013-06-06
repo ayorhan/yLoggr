@@ -10,18 +10,18 @@ This library has the same interface as the original `android.util.Log` class whi
 
 ## How To Use
 
-`Simple messaging:`
+Simple messaging:
 
     yLoggr.d("message");
 
-`Output:`
+Output:
 
-`Debugging arrays:`
+Debugging arrays:
 
     String[] stringArray = {"this", "is", "a", "String", "array"};
     yLoggr.d(stringArray);
 
-`Output:`
+Output:
 
 
 Debugging complex data structure:
