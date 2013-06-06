@@ -1,29 +1,40 @@
-yLoggr
-======
+# yLoggr
 
-yLoggr is a simple and lightweight wrapper for android.util.Log class.
+
+`yLoggr` is a simple and lightweight wrapper for `android.util.Log` class.
 It enables you to log any kind of data structure hassle free.
 I find this especially useful in cases where real time debugging isn't possible or doesn't work well.
 
-This library has the same interface as the original android.util.Log class which you can find here:
+This library has the same interface as the original `android.util.Log` class which you can find here:
 **http://developer.android.com/reference/android/util/Log.html**
 
-How To Use
-==========
+## How To Use
 
+Simple messaging:
     yLoggr.d("message");
 
-Including In Your Project
-=========================
+    Output:
+
+Debugging arrays:
+    String[] stringArray = {"this", "is", "a", "String", "array"};
+    yLoggr.d(stringArray);
+
+    Output:
+
+
+Debugging complex data structure:
+
+## Including In Your Project
+
 Download the jar file.
 
-Developed By
-============
+## Developed By
+
 
 * Arda Yigithan Orhan - <ayorhan@ayorhan.com>
 
-License
-=======
+## License
+
 
     Copyright 2012 Arda Yigithan Orhan
 
