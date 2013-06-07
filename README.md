@@ -10,13 +10,13 @@ This library has the same interface as the original `android.util.Log` class whi
 
 ## How To Use
 
-Simple messaging:
+Simple logging:
 
-    yLoggr.d("message");
+    yLoggr.d("This is a simple log text.");
 
 Output:
 
-Debugging arrays:
+Logging arrays:
 
     String[] stringArray = {"this", "is", "a", "String", "array"};
     yLoggr.d(stringArray);
@@ -24,7 +24,18 @@ Debugging arrays:
 Output:
 
 
-Debugging complex data structure:
+Logging complex data structures:
+
+    List<Car> cars = new ArrayList<Car>();
+    yLoggr.d(cars);
+
+Output:
+
+Logging exceptions:
+
+Output:
+    
+    
 
 ## Including In Your Project
 
